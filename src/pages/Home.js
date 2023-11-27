@@ -14,7 +14,7 @@ export default function Home() {
         <Navbar />
 
         {/* CAROUSEL + SUBNAV*/}
-     <div id="carouselExample" className="carousel slide">
+     <div id="carouselExample" className="carousel slide carousel-navbar">
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img src={c1 }className="d-block w-100" alt="..." />
@@ -34,11 +34,12 @@ export default function Home() {
     <span className="carousel-control-next-icon" aria-hidden="true" />
     <span className="visually-hidden">Next</span>
   </button>
+  <div className='nav-menu'><SubNav /></div>
 </div>
 
-        {/*carrousel*/}
+        {/*end carrousel*/}
 
-        <SubNav />
+        
         {/*TEXT DESCRIPTION*/}
         {/*SHOP components*/}
         <Lazy />
